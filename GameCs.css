@@ -1,0 +1,72 @@
+*{
+    font-family: sans-serif;
+    background: rgb(255, 119, 119);
+}
+
+/* header CSS*/
+header{
+    text-align: center;
+    
+}
+header h1{
+    text-align: center;
+}
+
+header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+header li {
+    float:left;
+}
+
+header li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    background-color: #333333;
+}
+
+header li a:hover {
+    background-color: #111111;
+  }
+
+
+/* End Header CSS */
+
+.gamereviews {
+    font-family: serif;
+}
+/*{
+    font-family: sans-serif;
+}
+body {
+    border: 1px solid #000;
+}
+
+div {
+    border: 1px solid #000;
+}
+
+p {
+    margin: 5px 5px 5px 5px;
+}
+
+h1 {
+    margin: 5px;
+}
+
+
+.ab {
+    font-family: serif;
+}
+
+.test {
+    display: flex;
+}*/
