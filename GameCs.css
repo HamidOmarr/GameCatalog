@@ -1,8 +1,13 @@
 *{
     font-family: sans-serif;
-    background: rgb(255, 119, 119);
 }
 
+body {
+    border: 2px solid black;
+    padding: 8px;
+    padding-bottom: 20px;
+    background: linear-gradient(#9198e5, #65688f);
+}
 /* header CSS*/
 header{
     text-align: center;
@@ -40,9 +45,72 @@ header li a:hover {
 
 /* End Header CSS */
 
-.gamereviews {
-    font-family: serif;
+/* begin Game INFO */
+.gameinfo {
+    border: 1px solid black;
+    display:flexbox;
+    text-align: center;
+    float:right;
+    margin: -50 60 10 10;
 }
+
+.gameinfo p {
+    margin: 10 10 10 10;
+}
+
+
+
+.gamereviews {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+.gamerequirements {
+    border: 1px solid black;
+    padding: 10px;
+}
+.gameimages img{
+    border: 1px solid black;
+    margin: 9px;
+}
+img {
+    width:1 50px;
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*{
     font-family: sans-serif;
 }
