@@ -79,7 +79,12 @@ img {
     height: 150px;
 }
 
-
+.GameGenre p{
+    display:inline-block;
+    padding: 5px 5px;
+    border: 1px solid black;
+    margin: 5px;
+}
 
 
 
