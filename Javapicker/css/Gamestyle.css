@@ -1,0 +1,128 @@
+* {
+    color: white;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#9198e5, #65688f);
+}
+
+.header{
+    text-align: center;
+    
+}
+.header h1{
+    text-align: center;
+}
+
+.header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.header li {
+    float:left;
+    list-style-type: none;
+}
+
+.header li a{
+    display: block;
+    color: white;
+    padding: 20px 30px;
+    text-decoration: none;
+    background-color: #333333;
+}
+
+.header li a:hover {
+    background-color: #111111;
+}
+
+.test {
+    width:100%; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+select,
+input{
+    padding: 10px 10px;
+    color: black;
+    border: 1px solid black;
+}
+
+option{
+    color: black;
+    border: 1px solid black;
+}
+
+button {
+    padding: 10px 10px;
+    margin: 5px;
+    color: black;
+    border: 1px solid black;
+}
+
+button:hover {
+    background-color: #8d8c8c;
+}
+
+
+.lijst {
+    width: 30%;
+}
+
+.game-box {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.game-container {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 15px;
+    background-color: hsl(256, 100%, 23%);
+    border-radius: 10px;
+
+
+    color: black;
+    border: 1px solid black;
+}
+
+.mandje1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+.prijs-label {
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+input[type="checkbox"]:checked {
+    background-color: black;
+}

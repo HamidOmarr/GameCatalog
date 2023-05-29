@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/Gamestyle.css">
+</head>
+
+<body>
+    <ul class="header">
+        <li><a href="GameHT.html">Mine Sweeper</a></li>
+        <li><a href="gameHT2.html">Boter Kaas & Eiren</a></li>
+        <li><a href="gameHT3.html">Schaken</a></li>
+        <li><a href="gamepicker.html">Game picker</a></li>
+    </ul>
+
+    <section id="game1" class="test">
+            <div>
+                <select id="ZieGenre">
+                    <option value="alle">genre</option>
+                </select>
+                <select id="ZieRating">
+                    <option value="alle">rating</option>
+                    <option value="1">★</option>
+                    <option value="2"> ★ ★</option>
+                    <option value="3"> ★ ★ ★ </option>
+                    <option value="4"> ★ ★ ★ ★</option>
+                    <option value="5"> ★ ★ ★ ★ ★</option>
+                </select>
+                <input id="prijsInleg" name="price" placeholder="Prijs inputfield">
+                <button onclick=applyFilter()>OK knop</button>
+            </div>
+            <div>
+                <button onclick="berekenTotaal()">Bereken</button>
+
+            </div>
+
+        <div class="lijst" id="gamelijst">
+        </div>
+    </section>
+
+    <section id="mandje1" class="mandje1">
+        <div class="options-bar">
+            <button onclick=terugNaarGamePage()>Terug</button>
+        </div>
+
+        <div class="lijst" id="shopping">
+        </div>
+        <div class="prijs-label">
+            <button id="prijs-totaal"></button>
+        </div>
+    </section>
+
+    <script src="java/script.js"></script>
+
+</body>
+
+</html>
